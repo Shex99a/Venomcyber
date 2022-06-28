@@ -160,7 +160,7 @@ def cms(site):
 		print(spe.r + "404 " + site)
 		
 	
-sitelist = input("v3n0m.tXt ")
+sitelist = input("v3n0m.tXt--> ")
 try:
 	print("")
 	sites = open(sitelist,"r").read().splitlines()
