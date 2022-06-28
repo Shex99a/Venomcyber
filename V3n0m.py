@@ -31,7 +31,7 @@ print(spe.g + """
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣇⠈⠛⢻⣿⣯⣿⣻⠗⠉⠑⠒⠋⡅⢠⠂
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣤⠀⠈⠻⣿⠉⠀⠀⠀⠀⢸⡷⠆⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀
-[@V3n0M_Cyber]
+[@Shexa_Cyber]
 """)
 os.system("xdg-open https://t.me/V3n0M_Cyber")
 	
